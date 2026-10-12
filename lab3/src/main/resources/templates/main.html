@@ -33,7 +33,6 @@
         <td th:text="${p.nationality.name}"></td>
         <td th:text="${p.address.city}"></td>
         <td>
-            <!-- Добавили кнопки -->
             <a class="btn btn-warning btn-sm" th:href="@{'/persons/update/' + ${p.id}}">Изменить</a>
             <a class="btn btn-danger btn-sm" th:href="@{'/persons/delete/' + ${p.id}}">Удалить</a>
         </td>
