@@ -1,7 +1,7 @@
 package ru.kafpin.lab3.entity;
 
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
+
 
 import java.util.List;
 
